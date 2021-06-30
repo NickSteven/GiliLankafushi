@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div>
+    	<table>
+        	<tr>
+        		<td>
+                	<img src="Sary/images.jpg" alt="" width="500px">
+            	</td>
+            	<td>
+                	<img src="Sary/booklogo.png" alt="">
+            	</td>        
+        	</tr>    
+    	</table>      
+    </div>    
+            
+        
+    <div class="navigation">
+    <ul id="nav">
+    	<li style="width: 10%"><a href="apropos.html">A PROPOS</a></li>
+    	<li style="width: 10%"><a href="Sejours.html">SEJOUR</a></li>
+    	<li style="width: 10%"><a href="Diner.html">DINER</a></li>
+    	<li style="width: 10%"><a href="Activité.html">ACTIVITES</a></li>
+    	<li style="width: 10%"><a href="Découvertes.html">DECOUVERTES</a></li>
+    	<li style="float: right" width="10%"><a class="active" href="#">RESERVATION</a></li>
+    </ul>
+	</div>       
+        
+       
+    <div class="tout">
+		<br><br>
+			<div class="langue1">
+				<p>Veuillez selectionner une Langue:</p>
+					<select>
+						<option>Francais</option>
+						<option>Anglais</option>
+						<option>Russe</option>
+						<option>Espagnol</option>
+						<option>Italien</option>
+						<option>Allemand</option>
+						<option>Africain</option>
+						<option>Suedois</option>
+						<option>Marocain</option>
+						<option>Malgache</option>
+					</select>
+			</div>
+		<br><br>
+
+
+		<div class="sup">
+
+			Type de voyage:<br><br>
+			
+			<input type="checkbox" name="famille" id="famille" > 
+			<label for="famille">En famille</label><br ><br>
+
+			<input type="checkbox" name="couple" id="couple" > 
+			<label for="couple">En couple</label><br ><br>
+
+			<input type="checkbox" name="solo" id="solo" > 
+			<label for="solo">Voyage pour une seule personne</label><br ><br>
+
+			<input type="checkbox" name="pro" id="pro" > 
+			<label for="pro">Professionnel</label><br ><br>
+
+			<input type="checkbox" name="ami" id="ami" > 
+			<label for="ami">Entre amis</label><br><br><br>
+			
+			
+
+			 Départ <br><input placeholder="Date d'arrivée" type="date"><br><br>
+				Heure de depart:<br><input type="time"><br><br>
+			 Arrivée <br><input type="date"><br><br>
+				Heure d'arrivée :<br><input type="time"><br><br>
+			 Adultes <input type="number" max="100"><br><br>
+			 Enfants <input type="number" max="100"><br><br>
+		 
+		</div>
+
+
+		<div class="formulaire">
+	  		<form method="post" action="traitement.php">
+				<label for="mon">Monsieur:</label>
+				<input type="radio" name="matri">
+				<label for="mad">Madame:</label>
+				<input type="radio" name="matri">
+				<label	for="made">Mademoiselle:</label>
+		    	<input type="radio" name="matri"><br><br>
+
+				
+				<label for="nom">Nom:<br></label><br>
+				<input type="text" name="nom" required><br><br>
+				<label for="prenom">Prénom:<br></label>
+				<input type="text" name="prenom" required><br><br>
+				<label for="tel">Numéro de téléphone:<br></label>
+				<input type="text" name="tel" required><br><br>
+				<label for="email">E-mail:<br></label>
+				<input type="text" name="email" ><br><br>
+				<label for="ville">Ville:</label>
+				<input type="text" name="ville" >
+				<label for="pays">Pays:</label>
+				<input type="text" name="pays"><br><br>
+
+				 Pièce d'identité:<br>
+						<input type="checkbox" name="pi" value="cin" id="cin">
+						<label for="cin">CIN</label><br>
+						<input type="checkbox" name="pi" value="pass" id="pass">
+			        	<label for="pass">Passeport</label><br><br>
+			        
+			    Mode de paiement<br>
+			    		
+			    		<input type="radio" name="paiement">
+			    		<label for="espece">En espèce</label><br>
+			    		<input type="radio" name="paiement">
+			    		<label for="bank">Carte bancaire</label><br><br>
+			        	   
+			    	  		 	<label for="agence">Nom de l'agence</label><br>
+			           		 	<input type="text" name="agence"><br><br>
+			            	 	<label for="code">Swift bancaire</label><br>
+			           		 	<input type="text" name="code"><br><br>
+			           		 	<label for="num">Numéro de compte</label><br>
+			           		 	<input type="text" name="Numéro"><br><br>
+			    			 	<label for="code">Veuillez saisir le mot  de passe:<br></label>
+			    			 	<input type="password" name="code">
+			</form>
+    	   			 
+        </div>			
+			
+		<div class="leftbox">
+			<div class="slider">
+				<div class="slides">
+					<div class="slide"><img src="Sary/family3.jpg" width="500px" height="300px"></div>
+					<div class="slide"><img src="Sary/family4.jpg" width="500px" height="300px"></div>
+					<div class="slide"><img src="Sary/family5.jpg" width="500px" height="300px"></div>
+				</div>				
+				
+	     		
+				
+	
+
+	<!-- <div class="txt"> -->
+			<label for="texte">Autres services:</label><br ><br >
+			<textarea name="texte" id="texte" rows="5" cols="65"></textarea>
+			<input type="submit" value="RESERVER" id="reserve">
+			</div>	
+		</div>
+	
+</div>
+		 <nav class="menu-navig">
+                  <ul class="btn">
+                    <li class="btn"><a href="Accueil.html">Acceuil </a></li>
+                  </ul> 
+                </nav>      
+	
+</body>
+</html>

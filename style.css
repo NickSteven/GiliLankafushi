@@ -1,0 +1,387 @@
+﻿*{
+    font-family: "century gothic";
+    color: #443939;
+    font-size: 14px;
+}
+/* pour toute l'interface*/
+.tous{
+background-image: url(logo/plage1.jpg);
+background-repeat: no-repeat;
+background-size: 2000px;
+margin-top: 1%;
+padding-top: 5px;
+
+}
+
+/*pour la slide*/
+
+.slider
+        {
+            overflow: hidden;
+            width: 300px;
+
+        }
+        .slides
+        {
+            float: left;
+            width: calc(200px * 3);
+            animation: glisse 15s infinite ;
+        }
+        .slide
+        {
+            float: left;
+
+        }
+        
+        @keyframes glisse
+        {
+            0%{transform: translateX(0);}
+            70%{transform: translate(-340px);}
+            95%{transform: translate(-1000px);}
+            0%{transform: translate(0px);}
+        }
+
+#tete{
+    background-size: 100px;
+
+    height: 50px;
+}
+#tb{
+ margin-left: 500px;
+}
+.image{
+    margin-right: 50px;
+    margin-left: 50px; 
+    display: flex; 
+    margin-top: 4%;
+}
+
+/* pour les petites icones*/
+.logo{
+    float: right;
+    top: 200px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    margin-right: 35px;
+    height: 50px;
+    margin-top: -4px;
+    
+
+}
+
+    
+#lg li{
+
+display: inline;
+padding: 10px;
+padding-left: 2px;
+
+}
+
+#in{
+    width: 30px;
+    height: 30px;
+    top: 2px;
+}
+
+#fa{
+    width: 30px;
+    height: 30px;
+}
+#go{
+    width: 32px;
+    height: 30px;
+    
+}
+#tw{
+    width: 33px;
+    height: 30px;
+}
+#sk{
+    width: 33px;
+    height: 30px;
+}
+
+/*pour les listes */
+
+#menu li{
+    display: inline-block;
+    position: relative;
+    right: 42px;
+    margin-left: 60px;
+    padding: 10px;
+    top: 5px;
+    color: #020101;
+    cursor: pointer;
+    
+    
+   
+
+}   
+
+
+
+.liste{
+
+    background-image: url(logo/plage1.jpg);
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    height:50px;
+    background-size: 100%;
+    padding-top: 1px;
+    background-color: #76dbce;
+
+}
+.list{
+     
+    margin-right: 10px;
+    margin-left: 85%;
+    margin-top: -300px;
+    padding-left: 22px;
+    height: 25px;
+    width: 120px;
+    padding-top: 12px;
+    
+}
+.aPropos{
+    
+    margin-right: 93%;
+}
+
+
+h2{
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    margin-left: 50px;
+}
+.p1{
+    
+
+    letter-spacing: 2px;
+    color: #3A3636;
+}
+#point{
+    width: 180px;
+    height: 90px;
+    margin-left:35px;
+
+}
+#p1{
+    margin-left: 22px;
+    margin-right: 15px;
+}
+
+/*pour le petit contenu*/
+.p2{
+
+    margin-left: 280px;
+    margin-right: 15px;
+    background-color:#EAF0F0;
+    height: 60px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.7;
+    border-radius: 5px;
+
+
+    
+    
+}
+
+/*pour l'inscription*/
+#p3{
+    margin-left: 1080px;
+    margin-right: 25px;
+    height: 500px;
+    margin-top: -270px;
+    padding-top: 2px;
+    border:1px solid #76DBCD;
+    border-radius: 15px;
+    background-color:#EAF0F0;
+    opacity: 0.7;
+
+}
+form{
+    margin-left: 40px;
+    margin-right: 50px;
+   
+}
+#value{
+    font-size: 15px;
+    margin-top: 10px;
+}
+#val{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+/*pour la présentation */
+.gili{
+
+    margin-left: 25px;
+    border:1px solid #76DBCD;
+    border-radius: 15px;
+    height: 350px;
+    width: 240px;
+    margin-top: -80px; 
+    background-color:#EAF0F0;
+    opacity: 0.7;
+    
+}
+span{
+    color:#2635F4;
+}
+#vi{
+    height: 580px;
+    width: 750px;
+    margin-top: -70px;
+
+    
+}
+
+.video{
+    margin-right: 283px;
+    margin-left:300px; 
+    margin-top: -520px;
+
+
+}
+/*pour les longs textes*/
+.mal{
+    
+    margin-right: 80%;
+    margin-left: 2%;
+    margin-top: -18%;
+}
+.txt{
+
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 3%;
+
+}
+
+
+/* pour la page apropos*/
+#map{
+    width: 100%;
+    height: 500px;
+
+}
+.loc{
+    
+    margin-right: 52%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+.adresse{
+    
+    margin-left: 52%;
+    margin-top: -490px;
+    
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.add{
+    padding-left: 100px;
+}
+.geo{
+    padding:10px;
+    margin-left: 60px;
+
+}
+.emplacement{
+    margin-top: 40px;
+}
+#center
+{
+    margin-left: 35%;
+}
+.vacance
+{
+    
+    margin-right: 52%;
+    padding-left: 20%;
+}
+.autre
+{
+    
+    margin-left: 52%;
+    margin-top: -63%;
+    
+}
+.tout{
+    background-color:#EFF6FA;
+    background-size: cover;
+}
+.langue1{
+    width: 100%;
+}
+.tab
+{
+    height: 500px;
+    margin: 0;
+}
+#nav
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#nav li
+{
+    float: left;
+}
+#nav li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover
+{
+    background-color: #077aa9;
+}
+.para1
+{
+    width: 90%;
+    background-color:#EAF0F0;
+    opacity: 0.7;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 60px;
+    border-radius: 5px;
+    height: 100px;
+}
+.active
+{
+    background-color: #077aa9;
+}
+nav.menu-navig ul li.btn
+
+{
+    list-style-type:none;
+    display: inline-block;
+    
+}
+nav.menu-navig ul li.btn a
+
+
+nav.menu-navig ul li.btn:hover a
+{
+    color:#9999ff;
+    background-color: grey;
+    transition: 1.5s all;
+
+}
